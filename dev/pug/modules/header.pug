@@ -1,0 +1,81 @@
+section.header
+	.header__menu-top.clearfix
+		a(href="#").header__logo
+		ul.header__login
+			li 
+				a(href="#") My account
+			li 
+				a(href="#") Settings
+			li 
+				a(href="#") Logout
+	.header__menu-bottom
+		ul.header__menu-main
+			li 
+				a(href="#") Home
+			li 
+				a(href="#") About us
+			li 
+				a(href="#") Our services
+			li 
+				a(href="#") Deposits
+			li 
+				a(href="#") FAQs
+			li 
+				a(href="#") Contacts us
+			li
+				a(href="#").header__menu-tell Call us: (2457) 555 222 333
+
+section.content
+	.content-top.clearfix
+		.content__left
+			.content__left-banner
+		.content__right
+			.content__right-login.clearfix
+				span.form-title Customer login
+				form(action="" method="post").form-customer
+					input(type="text" name="login" id="login-field" placeholder="User name")
+					input(type="password" name="password" id="password-field" placeholder="Password")
+				.content__right-checkbox
+					input(type="checkbox" id="Remember")
+					label(for="Remember") Remember me
+				a(href="#").content__right-forget_password Forget your password
+				input(type="submit" name="submit" value="Log in").btn-login.btn
+			.notMember.clearfix
+				span Not a member?
+				input(type="submit" name="submit" value="Open an account").btn.btn-open
+	.content-bottom.clearfix
+		.content-bottom-left
+			ul.OurSpecialties
+				h1.OurSpecialties-title
+					span Our
+					span Specialties
+				li
+					a(href="#") Lorem ipsum dolor sit amet, consectetur
+				li
+					a(href="#") Lorem ipsum dolor sit amet, consectetur
+				li
+					a(href="#") Lorem ipsum dolor sit amet, consectetur
+				li
+					a(href="#") Lorem ipsum dolor sit amet, consectetur
+				li
+					a(href="#") Lorem ipsum dolor sit amet, consectetur
+		.content-bottom-right.clearfix
+			.HowItWorks-title
+				span How it
+				span works
+			ul.HowItWorks-block
+				li.CheckValue
+					a(href="#") CheckValue
+				li
+					a(href="#")
+				li.BuyGold
+					a(href="#") Buy gold
+				li
+					a(href="#")
+				li.MakePayment
+					a(href="#") Make payment
+section.footer.clearfix
+	.footer-left
+		span 100% Secure
+	.footer-right
+		span Copyright © 2013   Cssauthor.com

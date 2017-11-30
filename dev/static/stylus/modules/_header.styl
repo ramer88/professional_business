@@ -1,0 +1,308 @@
+section.header
+	width 100%
+	max-width 1280px
+	padding 20px 157px 0px
+	font-family mainFont
+	
+	.header__logo
+		width 243px
+		height 74px
+		float left
+		background url(../img/content/logo.png) 0 0 no-repeat
+
+	.header__login
+		float right
+		margin-top 37px
+
+		li
+			display inline-block
+			padding-right 8px
+			border-right 2px solid #595959
+			font-size 12px
+			
+		li:last-child
+			border-right none
+			
+		a
+			color #595959
+			
+			&:hover,
+			&:focus
+				color #cd5f57
+				
+.header__menu-bottom
+	width 960px
+	margin 0 auto 12px
+	background linear-gradient(to top, #a61e14, #df4234)
+	border-radius 4px
+
+	li
+		display inline-block
+		padding 9px 15px
+		
+		&:hover,
+		&:focus
+			background-color #434343
+			
+		&:first-child:hover,&:first-child:focus
+			border-radius 4px 0 0 4px
+
+		&:last-child
+			margin-left 219px
+			border-radius 0 4px 4px 0
+
+		a
+			color #fff
+			border-radius 4px
+			overflow hidden
+			
+section.content
+	width 100%
+	max-width 960px
+	margin 0 auto 25px
+	
+.content-top
+	margin-bottom 23px
+
+.content__left
+	width 100%
+	max-width 674px
+	height 308px
+	margin-right 13px
+	float left
+	background url(../img/content/banner-gold.jpg) 0 0 no-repeat
+	background-size cover
+	
+.content__right
+	width 100%
+	max-width 270px
+	float right
+	
+.content__right-login
+	position relative
+	background linear-gradient(to top, #494949, #1f1f1f)
+	color #fff
+	border-radius 3px 3px 0px 0px
+	border-bottom 1px solid wetAsphalt
+	
+	span 
+		display block
+		position relative
+		margin 22px 0 8px 32px
+		width 195px
+		height 20px
+		padding-left 27px
+		text-transform uppercase
+		font-family mediumFont
+		font-size 16px
+		
+		&:before
+			content ''
+			position absolute
+			display block
+			top -7px
+			left -7px
+			width 21px
+			height 21px
+			background url(../img/content/custamer.png) 0 0 no-repeat
+
+.form-customer input
+		display block
+		margin 0 auto
+		width 216px
+		height 25px
+		padding-left 15px
+		border none
+		box-shadow inset 12px 34px 7px -27px rgba(0,0,0,0.25)
+		
+.form-customer input:first-child
+	margin-bottom 12px
+	
+.form-customer input:last-child
+	margin-bottom 14px
+	
+.content__right-checkbox
+	display block
+	text-align center
+	margin-bottom 10px
+	color brightGrayColor
+	font-family mainFont
+	font-size 14px
+	
+.content__right-forget_password
+	display block
+	margin-bottom 22px
+	text-align center
+	color brightGrayColor
+	font-family mainFont
+	font-size 14px
+	
+.btn-login
+	position absolute
+	bottom -10%
+	left 35%
+	margin 0 auto
+	padding 10px 14px 6px 18px
+	border none
+	font-size 16px
+	box-shadow 1px 0% 0px rgba(0,0,0,.26)
+	
+		input[value="Log in"]
+			box-shadow 1px 0% 0px rgba(0,0,0,.26)
+	
+.notMember
+	background-color black
+	color #fff
+	border-radius 0px 0px 3px 3px
+	
+	span
+		padding 39px 0 14px
+		display block
+		text-align center
+		font-size 18px
+		font-family mediumFont
+		box-shadow 1px 0px 0px rgba(0,0,0,.26)
+
+	.btn-open
+		margin 0 auto 15px
+		padding 10px 14px 6px 18px
+		border none
+		font-size 16px
+		
+.content-bottom
+	width 100%
+	max-width 964px
+
+	.content-bottom-left
+		float left
+		width 100%
+		max-width 345px
+		font-family mainFont
+		
+		h1
+			margin 0  0 28px 14px
+			font-size 20px
+			font-family boldFont
+			
+			span:first-child
+				margin-right 5px
+				color lightGrayColor
+				
+			span:last-child
+				color mainRedColor
+				
+		li
+			position relative
+			margin 0 0 15px 47px
+			font-size 14px
+			letter-spacing 0.3px
+
+			a
+				display block
+				color darkGrayColor
+				
+			a:before
+				content ''
+				position absolute
+				display block
+				top 3px
+				left -26px
+				width 13px
+				height 10px
+				background url(../img/content/check-point.png) 0 0 no-repeat
+				margin-right 10px
+				
+	.content-bottom-right
+		float right
+		width 100%
+		max-width 570px
+		
+		.HowItWorks-title
+			margin 0 0 28px
+			font-size 20px
+			font-family boldFont
+			
+			span:first-child
+				margin-right 5px
+				color lightGrayColor
+				
+			span:last-child
+				color mainRedColor
+		ul.HowItWorks-block
+			width 100%
+			max-width 571px
+			position relative
+			display block
+			padding 25px 10px 25px 10px
+			background-color lightwetAsfaltColor
+			border-radius 3px
+			
+			li
+				display inline-block
+				font-family mainFont
+				width 150px
+				height 97px
+				margin-right 4px
+				
+				&:nth-child(1)
+					background url(../img/content/check_value.png) 24% 0 no-repeat
+					
+				&:nth-child(2)
+					background url(../img/content/arrow.png) 0 center no-repeat
+					width 30px
+					height 97px
+					
+					& a
+						display block
+						width 30px
+						height 75px
+						
+				&:nth-child(3)
+					background url(../img/content/gold.png) center 0 no-repeat
+					
+				&:nth-child(4)
+					background url(../img/content/arrow.png) 0 center no-repeat
+					width 30px
+					height 97px
+					
+					& a
+						display block
+						width 30px
+						height 75px
+						
+				&:nth-child(5)
+					background url(../img/content/coin.png) center 0 no-repeat
+					
+				a
+					display block
+					position absolute
+					width 150px
+					height 20px
+					color darkGrayColor
+					font-size 16px
+					text-align center
+					bottom 25px
+					
+section.footer
+	width 100%
+	max-width 1024px
+	margin 0 auto
+	padding 20px 25px 10px
+	background-color TransportBlackColor
+	
+	.footer-left
+		float left
+		
+		span
+			color SmokeWhiteColor
+			text-transform uppercase
+			font-family bebasFont
+			font-size 22px
+			
+	.footer-right
+		float right
+		
+		span
+			color SmokeWhiteColor
+			font-family mainFont
+			font-size 13px
